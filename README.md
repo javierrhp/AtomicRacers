@@ -1,45 +1,11 @@
-# empiric_team_abp24
-[ABPCE24] Proyecto de Videojuegos del grupo Empiric Team de ABP 2024/25
-
-ARCADE VEHICLE DYNAMICS AND PHYSICS (BULLET)
-src/system/VehicleSystem.hpp
-src/system/VehicleSystem.cpp
-src/system/VehicleInputSystem.hpp
-src/system/VehicleInputSystem.cpp
-src/components/VehicleComponent.hpp
-src/components/VehicleComponent.cpp
-
-EVENT SYSTEM
-src/util/EventTypes.hpp
-src/events/eventTypes.hpp
-src/events/eventDispatcher.cpp
-src/man/EventManager.hpp
-src/system/EventSystem.hpp
-src/system/EventSystem.cpp
-src/components/EventComponent.hpp
-src/components/EventComponent.cpp
-
-AUDIO ARCHITECTURE (FMOD)
-src/engine/ISound.hpp
-src/engine/FmodSoundEngine.cpp
-src/system/SoundSystem.hpp
-src/system/SoundSystem.cpp
-src/components/SoundComponent.hpp
-src/components/SoundComponent.cpp
 
 
-
-
-
-arcade vehicle dynamics and physics
-event system
-audio architecture
 
 
 # Atomic Racers — C++ Arcade Racing Game
 > Arcade racing game developed in C++ using custom engine architecture, Bullet Physics, FMOD spatial audio, and an ECS framework.
 
-![Game Banner or Demo GIF](path/to/demo_gameplay.gif) <!-- Añade un GIF o captura del juego aquí -->
+![Game Banner or Demo GIF](https://img.itch.zone/aW1nLzIyMDg5MTk5LnBuZw==/original/naZJlA.png) <!-- Añade un GIF o captura del juego aquí -->
 
 ## 🏎️ Core Technical Highlights
 * **Physics & Vehicle Dynamics:** Custom vehicle controller and arcade physics integration using **Bullet Physics**.
@@ -76,6 +42,9 @@ Abstracted audio engine interface managing real-time 3D spatial audio, backgroun
 * Event-driven programming to minimize system dependencies and improve cache efficiency.
 
 ---
+
+# empiric_team_abp24
+[ABPCE24] Proyecto de Videojuegos del grupo Empiric Team de ABP 2024/25
 
 ## 💻 Tech Stack & Dependencies
 * **Language:** C++17
