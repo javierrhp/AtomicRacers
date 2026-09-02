@@ -20,7 +20,7 @@
 
 ### 🚗 Arcade Vehicle Dynamics & Physics (Bullet Physics)
 Handles vehicle input, raycast suspension, wheel friction, and rigid body dynamics.
-* **Systems:** [`VehicleSystem.cpp`](src/system/VehicleSystem.hpp) | [`VehicleSystem.cpp`](src/system/VehicleSystem.cpp) | [`VehicleInputSystem.hpp`](src/system/VehicleInputSystem.hpp) | [`VehicleInputSystem.cpp`](src/system/VehicleInputSystem.cpp)
+* **Systems:** [`VehicleSystem.hpp`](src/system/VehicleSystem.hpp) | [`VehicleSystem.cpp`](src/system/VehicleSystem.cpp) | [`VehicleInputSystem.hpp`](src/system/VehicleInputSystem.hpp) | [`VehicleInputSystem.cpp`](src/system/VehicleInputSystem.cpp)
 * **Components:** [`VehicleComponent.hpp`](src/components/VehicleComponent.hpp) | [`VehicleComponent.cpp`](src/components/VehicleComponent.cpp)
 
 ### 🔄 Event System (Observer Pattern)
