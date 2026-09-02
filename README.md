@@ -7,6 +7,8 @@
 
 ![Game Banner or Demo GIF](https://img.itch.zone/aW1nLzIyMDg5MTk5LnBuZw==/original/naZJlA.png) <!-- Añade un GIF o captura del juego aquí -->
 
+[![Play on Itch.io](https://img.shields.io/badge/Itch.io-Play%20%2F%20Download-FA5C5C?style=for-the-badge&logo=itch.io&logoColor=white)](https://empiric-team.itch.io/atomic-racers) <!-- Sustituye con el enlace real a tu juego en Itch.io -->
+
 ## 🏎️ Core Technical Highlights
 * **Physics & Vehicle Dynamics:** Custom vehicle controller and arcade physics integration using **Bullet Physics**.
 * **Event Architecture:** Decoupled Event System built on the **Observer Pattern** (`EventDispatcher` / `EventManager`) integrated into an ECS framework.
@@ -43,10 +45,10 @@ Abstracted audio engine interface managing real-time 3D spatial audio, backgroun
 
 ---
 
-# empiric_team_abp24
-[ABPCE24] Proyecto de Videojuegos del grupo Empiric Team de ABP 2024/25
-
 ## 💻 Tech Stack & Dependencies
 * **Language:** C++17
 * **Physics Engine:** Bullet Physics
 * **Audio Engine:** FMOD Studio SDK
+
+# empiric_team_abp24
+[ABPCE24] Proyecto de Videojuegos del grupo Empiric Team de ABP 2024/25
