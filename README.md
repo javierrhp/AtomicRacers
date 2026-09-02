@@ -51,11 +51,5 @@ Abstracted audio engine interface managing real-time 3D spatial audio, backgroun
 
 ---
 
-## 🎮 Play the Game
-You can download the latest playable build and view media on our official page:  
-👉 **[Play / Download Atomic Racers on Itch.io](https://empiric-team.itch.io/atomic-racers)** *(Sustituye con tu enlace de Itch.io)*
-
----
-
 # empiric_team_abp24
 [ABPCE24] Proyecto de Videojuegos del grupo Empiric Team de ABP 2024/25
