@@ -21,6 +21,7 @@
 ### 🚗 Arcade Vehicle Dynamics & Physics (Bullet Physics)
 Handles vehicle input, raycast suspension, wheel friction, and rigid body dynamics.
 * **Systems:** [`VehicleSystem.hpp`](src/system/VehicleSystem.hpp) | [`VehicleSystem.cpp`](src/system/VehicleSystem.cpp) | [`VehicleInputSystem.hpp`](src/system/VehicleInputSystem.hpp) | [`VehicleInputSystem.cpp`](src/system/VehicleInputSystem.cpp)
+* **Utils:** [`CollisionInBroadphase.hpp`](src/util/CollisionInBroadphase.hpp) | [`CollisionInBroadphase.cpp`]("src/util/CollisionInBroadphase.cpp")
 * **Components:** [`VehicleComponent.hpp`](src/components/VehicleComponent.hpp) | [`VehicleComponent.cpp`](src/components/VehicleComponent.cpp)
 
 ### 🔄 Event System (Observer Pattern)
@@ -34,6 +35,10 @@ Provides asynchronous and decoupled event dispatching across gameplay and engine
 Abstracted audio engine interface managing real-time 3D spatial audio, background music, and sound effects.
 * **Engine Core:** [`ISound.hpp`](src/engine/ISound.hpp) | [`FmodSoundEngine.cpp`](src/engine/FmodSoundEngine.cpp)
 * **Systems & Components:** [`SoundSystem.hpp`](src/system/SoundSystem.hpp) | [`SoundSystem.cpp`](src/system/SoundSystem.cpp) | [`SoundComponent.hpp`](src/components/SoundComponent.hpp) | [`SoundComponent.cpp`](src/components/SoundComponent.cpp)
+
+### 🌐 Scene & Asset Data Pipeline (OBJ & JSON Loaders)
+Parses raw `.obj` files to extract 3D mesh geometry and processes JSON configuration files to instantiate individual scene elements, loading their transforms (position, rotation, scale) and spatial bounds within the custom engine framework.
+* **Managers & Loaders:** [`JsonManager.hpp`](src/util/JsonManager.hpp)
 
 ---
 
