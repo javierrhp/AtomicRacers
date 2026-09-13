@@ -5,7 +5,7 @@
 # Atomic Racers — C++ Arcade Racing Game
 > Arcade racing game developed in C++ using custom engine architecture, Bullet Physics, FMOD spatial audio, and an ECS framework.
 
-![Game Banner or Demo GIF](https://img.itch.zone/aW1nLzIyMDg5MTk5LnBuZw==/original/naZJlA.png) <!-- Añade un GIF o captura del juego aquí -->
+![Game Banner or Demo GIF](https://img.itch.zone/aW1nLzIyMDg5MTk5LnBuZw==/original/naZJlA.png) 
 
 
 ## 🏎️ Core Technical Highlights
