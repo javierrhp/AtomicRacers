@@ -12,6 +12,7 @@
 * **Physics & Vehicle Dynamics:** Custom vehicle controller and arcade physics integration using **Bullet Physics**.
 * **Event Architecture:** Decoupled Event System built on the **Observer Pattern** (`EventDispatcher` / `EventManager`) integrated into an ECS framework.
 * **Audio Engine:** Complete 3D spatial sound architecture using **FMOD**.
+* **Asset & Data Pipeline:** Custom **.OBJ** geometry parser and **JSON** manager to load individual 3D elements and scene transforms.
 * **Memory & Performance:** Low-level C++ development with minimal external dependencies.
 
 ---
